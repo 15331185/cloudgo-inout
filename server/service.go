@@ -18,6 +18,7 @@ func NewServer() *negroni.Negroni {
 
 	formatter := render.New(render.Options {
 
+
 		IndentJSON: true,
 
 		Extensions: []string{".gtpl", ".html"},
@@ -53,7 +54,7 @@ func initRouters(mx *mux.Router, formatter *render.Render) {
 	mx.HandleFunc("/unknown", unknown)
 
 	mx.HandleFunc("/login", formHandler(formatter)).Methods("POST")
-
+        mx.HandleFunc("/api/test", apiTestHandler(formatter)).Methods("GET")
 	mx.PathPrefix("/assets/").Handler(http.StripPrefix("/assets/", http.FileServer(http.Dir(webRoot))))
 
 }
