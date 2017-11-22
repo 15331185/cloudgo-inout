@@ -1,14 +1,5 @@
 #cloud-io
-_______________________________________________________
-##1.支持静态文件服务，访问assets</br>
-![访问assets] (https://github.com/15331185/cloudgo-inout/tree/master/result/7.png)</br>
-##2.支持JS访问，过滤器</br>
-![JS] (https://github.com/15331185/cloudgo-inout/tree/master/result/3.png)</br>
-##3.提交表单并返回一个表格</br>
-![1] (https://github.com/15331185/cloudgo-inout/tree/master/result/1.png)</br>
-![2] (https://github.com/15331185/cloudgo-inout/tree/master/result/2.png)</br>
-##4.555 unknown</br>
-![unknown] (https://github.com/15331185/cloudgo-inout/tree/master/result/6.png)</br>
+
 
 
 
